@@ -1,0 +1,25 @@
+.tarjetas{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+
+    .tarjeta{
+        background-color: $colorprincipal;
+        padding: 10px;
+    
+        &-titulo{
+            text-align: center;
+            
+            &:hover{
+                color: $color2;
+            }
+        }
+        
+        &-texto{
+            text-align: center;
+        }
+        
+    }
+
+}
